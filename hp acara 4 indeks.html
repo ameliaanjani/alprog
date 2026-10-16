@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<!-- Menyatakan bahwa dokumen menggunakan HTML5 -->
+
+<html lang="id">
+<!-- Tag pembuka HTML dan menentukan bahasa halaman adalah Indonesia -->
+
+<head>
+    <!-- Bagian head berisi informasi tentang halaman website -->
+
+    <meta charset="UTF-8">
+    <!-- Mengatur encoding karakter agar huruf dan simbol tampil dengan benar -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Membuat tampilan menyesuaikan ukuran layar perangkat -->
+
+    <title>Data Curah Hujan Yogyakarta</title>
+    <!-- Menentukan judul yang muncul pada tab browser -->
+
+    <style>
+        /* Bagian ini digunakan untuk mengatur tampilan website dengan CSS */
+
+        body {
+            font-family: Arial, sans-serif;
+            /* Menentukan jenis huruf yang digunakan */
+
+            margin: 30px;
+            /* Memberikan jarak antara isi website dan tepi halaman */
+
+            background-color: white;
+            /* Memberikan warna latar belakang putih */
+
+            color: black;
+            /* Menentukan warna teks menjadi hitam */
+        }
+
+        .logo {
+            display: block;
+            /* Membuat gambar menjadi elemen blok */
+
+            width: 100px;
+            height: 100px;
+            /* Mengatur lebar dan tinggi logo menjadi 100 piksel */
+
+            object-fit: contain;
+            /* Menjaga proporsi gambar agar tidak terpotong */
+
+            margin: 0 auto 15px;
+            /* Memusatkan logo dan memberikan jarak bawah 15 piksel */
+        }
+
+        h1 {
+            text-align: center;
+            /* Membuat judul berada di tengah halaman */
+
+            font-size: 24px;
+            /* Mengatur ukuran huruf judul */
+        }
+
+        table {
+            width: 70%;
+            /* Mengatur lebar tabel sebesar 70% dari area yang tersedia */
+
+            margin: 20px auto;
+            /* Memberikan jarak atas-bawah dan memusatkan tabel */
+
+            border-collapse: collapse;
+            /* Menggabungkan garis batas antarsel tabel */
+        }
+
+        th, td {
+            border: 1px solid black;
+            /* Memberikan garis hitam pada setiap sel */
+
+            padding: 10px;
+            /* Memberikan ruang antara isi sel dan garis batas */
+
+            text-align: center;
+            /* Memusatkan teks di setiap sel */
+        }
+
+        th {
+            background-color: #eeeeee;
+            /* Memberikan warna abu-abu muda pada judul kolom */
+        }
+
+        p {
+            text-align: center;
+            /* Memusatkan paragraf sumber data */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Bagian body berisi semua elemen yang terlihat di website -->
+
+    <img src="logo ugm.jpg" alt="Logo UGM" class="logo">
+    <!-- Menampilkan logo UGM dari file gambar di folder proyek -->
+
+    <h1>Data Curah Hujan Bulanan Yogyakarta</h1>
+    <!-- Menampilkan judul utama website -->
+
+    <table>
+        <!-- Membuat tabel untuk menampilkan data curah hujan -->
+
+        <tr>
+            <!-- Membuat baris pertama sebagai kepala tabel -->
+
+            <th>No.</th>
+            <!-- Kolom nomor urut -->
+
+            <th>Bulan</th>
+            <!-- Kolom nama bulan -->
+
+            <th>Curah Hujan (mm)</th>
+            <!-- Kolom nilai curah hujan dalam milimeter -->
+        </tr>
+
+        <tr><td>1</td><td>Januari</td><td>320</td></tr>
+        <!-- Menampilkan data curah hujan bulan Januari -->
+
+        <tr><td>2</td><td>Februari</td><td>223</td></tr>
+        <!-- Menampilkan data curah hujan bulan Februari -->
+
+        <tr><td>3</td><td>Maret</td><td>441</td></tr>
+        <!-- Menampilkan data curah hujan bulan Maret -->
+
+        <tr><td>4</td><td>April</td><td>95</td></tr>
+        <!-- Menampilkan data curah hujan bulan April -->
+
+        <tr><td>5</td><td>Mei</td><td>343</td></tr>
+        <!-- Menampilkan data curah hujan bulan Mei -->
+
+        <tr><td>6</td><td>Juni</td><td>85</td></tr>
+        <!-- Menampilkan data curah hujan bulan Juni -->
+
+        <tr><td>7</td><td>Juli</td><td>14</td></tr>
+        <!-- Menampilkan data curah hujan bulan Juli -->
+
+        <tr><td>8</td><td>Agustus</td><td>109</td></tr>
+        <!-- Menampilkan data curah hujan bulan Agustus -->
+
+        <tr><td>9</td><td>September</td><td>24</td></tr>
+        <!-- Menampilkan data curah hujan bulan September -->
+
+        <tr><td>10</td><td>Oktober</td><td>224</td></tr>
+        <!-- Menampilkan data curah hujan bulan Oktober -->
+
+        <tr><td>11</td><td>November</td><td>268</td></tr>
+        <!-- Menampilkan data curah hujan bulan November -->
+
+        <tr><td>12</td><td>Desember</td><td>167</td></tr>
+        <!-- Menampilkan data curah hujan bulan Desember -->
+
+    </table>
+    <!-- Menutup tabel -->
+
+    <p>
+        Sumber:
+        <!-- Menampilkan keterangan sumber data -->
+
+        <a href="https://yogyakarta.bps.go.id/id/statistics-table/2/MTUyIzI=/curah-hujan-per-bulan.html">
+            Badan Pusat Statistik Provinsi D.I. Yogyakarta
+        </a>
+        <!-- Membuat teks sumber dapat diklik untuk membuka halaman BPS -->
+    </p>
+
+</body>
+<!-- Menutup bagian isi website -->
+
+</html>
+<!-- Menutup dokumen HTML -->
+
